@@ -6,7 +6,7 @@
 [![Terraform](https://img.shields.io/badge/terraform-%3E%3D1.5-blue)](https://www.terraform.io/)
 [![AWS](https://img.shields.io/badge/AWS-Supported-orange)](https://aws.amazon.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://github.com/YOUR_USERNAME/terraform-aws-modules/actions/workflows/terraform-ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/terraform-aws-modules/actions)
+[![CI](https://github.com/YOUR_USERNAME/terraform-aws-modules/actions/workflows/terraform-ci.yml/badge.svg)](https://github.com/arunkonderu-cloud/terraform-aws-modules/actions)
 
 ---
 
@@ -66,7 +66,7 @@ Each module follows AWS Well-Architected Framework principles and is designed fo
 ```hcl
 # Deploy a production-grade VPC
 module "vpc" {
-  source = "github.com/YOUR_USERNAME/terraform-aws-modules//modules/vpc"
+  source = "github.com/arunkonderu-cloud/terraform-aws-modules//modules/vpc"
 
   name               = "prod-vpc"
   cidr               = "10.0.0.0/16"
@@ -86,7 +86,7 @@ module "vpc" {
 
 # Deploy EKS on top of that VPC
 module "eks" {
-  source = "github.com/YOUR_USERNAME/terraform-aws-modules//modules/eks"
+  source = "github.com/arunkonderu-cloud/terraform-aws-modules//modules/eks"
 
   cluster_name    = "prod-eks"
   cluster_version = "1.29"
@@ -194,7 +194,7 @@ Every module enforces security out of the box:
 
 **Arun Kumar Konderu**  
 Cloud Software Engineer | AWS Certified DevOps Engineer | CKA  
-[LinkedIn](https://www.linkedin.com/in/arun-kumar-konderu-3b1373207) · [GitHub](https://github.com/YOUR_USERNAME)
+[LinkedIn](https://www.linkedin.com/in/arun-kumar-konderu-3b1373207) · [GitHub](https://github.com/arunkonderu-cloud)
 
 ---
 
